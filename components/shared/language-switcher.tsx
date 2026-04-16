@@ -16,6 +16,16 @@ const languages = [
   { code: "ja", label: "日本語", flag: "🇯🇵" },
   { code: "zh", label: "中文", flag: "🇨🇳" },
   { code: "hi", label: "हिंदी", flag: "🇮🇳" },
+  { code: "it", label: "Italiano", flag: "🇮🇹" },
+  { code: "ko", label: "한국어", flag: "🇰🇷" },
+  { code: "tr", label: "Türkçe", flag: "🇹🇷" },
+  { code: "nl", label: "Nederlands", flag: "🇳🇱" },
+  { code: "pl", label: "Polski", flag: "🇵🇱" },
+  { code: "id", label: "Bahasa Indonesia", flag: "🇮🇩" },
+  { code: "vi", label: "Tiếng Việt", flag: "🇻🇳" },
+  { code: "th", label: "ภาษาไทย", flag: "🇹🇭" },
+  { code: "bn", label: "বাংলা", flag: "🇧🇩" },
+  { code: "sw", label: "Kiswahili", flag: "🇰🇪" },
 ];
 
 export function LanguageSwitcher() {
@@ -57,7 +67,7 @@ export function LanguageSwitcher() {
       </button>
 
       {open && (
-        <div className="absolute right-0 top-full mt-1 z-50 w-44 rounded-xl border bg-background shadow-lg overflow-hidden">
+        <div className="absolute right-0 top-full mt-1 z-50 w-44 rounded-xl border bg-background shadow-lg overflow-y-auto max-h-72">
           {languages.map((lang) => (
             <button
               key={lang.code}

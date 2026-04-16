@@ -1,0 +1,10 @@
+{
+  "nav": { "features": "기능", "pricing": "요금제", "gallery": "갤러리", "signIn": "로그인", "dashboard": "대시보드", "generate": "생성" },
+  "hero": { "badge": "GPT-4o Vision 기반", "title": "모든 이미지를", "titleHighlight": "완벽한 AI 프롬프트로 변환", "description": "이미지를 업로드하면 Midjourney 프롬프트, Stable Diffusion 태그, 제품 설명, 광고 문구, SEO 콘텐츠를 몇 초 안에 생성합니다.", "cta": "무료로 시작하기", "ctaSub": "신용카드 불필요", "trustedBy": "50,000명 이상의 크리에이터가 사용 중" },
+  "pricing": { "title": "간단하고 투명한 요금제", "subtitle": "무료로 시작하세요. 필요할 때 업그레이드하고, 언제든지 취소할 수 있습니다.", "free": "무료", "pro": "Pro", "business": "비즈니스", "month": "/월", "popular": "인기", "getStarted": "시작하기", "upgradePro": "Pro로 업그레이드", "upgradeBusiness": "비즈니스로 업그레이드" },
+  "gallery": { "title": "커뮤니티 갤러리", "subtitle": "크리에이터 커뮤니티가 공유한 AI 프롬프트를 둘러보세요." },
+  "footer": { "tagline": "모든 이미지를 즉시 완벽한 AI 프롬프트로 변환하세요.", "product": "제품", "company": "회사", "legal": "법적 정보", "features": "기능", "pricing": "요금제", "generate": "생성", "about": "소개", "blog": "블로그", "careers": "채용", "contact": "문의", "privacy": "개인정보 처리방침", "terms": "이용약관", "cookies": "쿠키 정책", "rights": "All rights reserved.", "builtWith": "Next.js 14 구축 · GPT-4o 기반" },
+  "auth": { "signIn": "PromptShot AI 로그인", "subtitle": "이미지를 AI 프롬프트로 변환하기 시작하세요", "continueGoogle": "Google로 계속하기", "continueGithub": "GitHub로 계속하기", "terms": "로그인하면 당사의", "termsLink": "이용약관", "and": "및", "privacyLink": "개인정보 처리방침에 동의하는 것입니다" },
+  "generate": { "title": "프롬프트 생성", "upload": "이미지 업로드", "dragDrop": "드래그 앤 드롭하거나 클릭하여 업로드", "outputType": "출력 유형", "generate": "생성", "generating": "생성 중...", "enhance": "향상", "copy": "복사", "copied": "복사됨!" },
+  "common": { "loading": "로딩 중...", "error": "문제가 발생했습니다", "retry": "다시 시도", "save": "저장", "cancel": "취소", "delete": "삭제", "edit": "편집", "share": "공유", "download": "다운로드" }
+}
