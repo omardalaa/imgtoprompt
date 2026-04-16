@@ -1,0 +1,85 @@
+{
+  "nav": {
+    "features": "機能",
+    "pricing": "料金",
+    "gallery": "ギャラリー",
+    "signIn": "ログイン",
+    "dashboard": "ダッシュボード",
+    "generate": "生成"
+  },
+  "hero": {
+    "badge": "GPT-4o Vision搭載",
+    "title": "あらゆる画像を",
+    "titleHighlight": "完璧なAIプロンプトに変換",
+    "description": "画像をアップロードするだけで、Midjourneyプロンプト、Stable Diffusionタグ、商品説明、広告コピー、SEOコンテンツを数秒で生成します。",
+    "cta": "無料で始める",
+    "ctaSub": "クレジットカード不要",
+    "trustedBy": "50,000人以上のクリエイターが利用中"
+  },
+  "pricing": {
+    "title": "シンプルで透明な料金体系",
+    "subtitle": "無料で始めて、必要に応じてアップグレード。いつでもキャンセル可能。",
+    "free": "無料",
+    "pro": "Pro",
+    "business": "ビジネス",
+    "month": "/月",
+    "popular": "人気",
+    "getStarted": "始める",
+    "upgradePro": "Proにアップグレード",
+    "upgradeBusiness": "ビジネスにアップグレード"
+  },
+  "gallery": {
+    "title": "コミュニティギャラリー",
+    "subtitle": "クリエイターコミュニティが共有したAIプロンプトを閲覧しましょう。"
+  },
+  "footer": {
+    "tagline": "あらゆる画像を即座に完璧なAIプロンプトに変換。",
+    "product": "製品",
+    "company": "会社",
+    "legal": "法的情報",
+    "features": "機能",
+    "pricing": "料金",
+    "generate": "生成",
+    "about": "私たちについて",
+    "blog": "ブログ",
+    "careers": "採用情報",
+    "contact": "お問い合わせ",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "cookies": "Cookieポリシー",
+    "rights": "全著作権所有。",
+    "builtWith": "Next.js 14構築 · GPT-4o搭載"
+  },
+  "auth": {
+    "signIn": "PromptShot AIにログイン",
+    "subtitle": "画像をAIプロンプトに変換し始めましょう",
+    "continueGoogle": "Googleで続ける",
+    "continueGithub": "GitHubで続ける",
+    "terms": "ログインすることで、",
+    "termsLink": "利用規約",
+    "and": "および",
+    "privacyLink": "プライバシーポリシーに同意します"
+  },
+  "generate": {
+    "title": "プロンプト生成",
+    "upload": "画像をアップロード",
+    "dragDrop": "ドラッグ＆ドロップまたはクリックしてアップロード",
+    "outputType": "出力タイプ",
+    "generate": "生成",
+    "generating": "生成中...",
+    "enhance": "強化",
+    "copy": "コピー",
+    "copied": "コピーしました！"
+  },
+  "common": {
+    "loading": "読み込み中...",
+    "error": "エラーが発生しました",
+    "retry": "再試行",
+    "save": "保存",
+    "cancel": "キャンセル",
+    "delete": "削除",
+    "edit": "編集",
+    "share": "共有",
+    "download": "ダウンロード"
+  }
+}

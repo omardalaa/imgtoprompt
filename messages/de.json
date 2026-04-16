@@ -1,0 +1,85 @@
+{
+  "nav": {
+    "features": "Funktionen",
+    "pricing": "Preise",
+    "gallery": "Galerie",
+    "signIn": "Anmelden",
+    "dashboard": "Dashboard",
+    "generate": "Generieren"
+  },
+  "hero": {
+    "badge": "Powered by GPT-4o Vision",
+    "title": "Verwandeln Sie jedes Bild in",
+    "titleHighlight": "perfekte KI-Prompts",
+    "description": "Laden Sie ein Bild hoch und erhalten Sie in Sekunden fertige Midjourney-Prompts, Stable-Diffusion-Tags, Produktbeschreibungen, Werbetexte und SEO-Inhalte.",
+    "cta": "Kostenlos starten",
+    "ctaSub": "Keine Kreditkarte erforderlich",
+    "trustedBy": "Über 50.000 Kreative vertrauen uns"
+  },
+  "pricing": {
+    "title": "Einfache, transparente Preise",
+    "subtitle": "Kostenlos starten. Bei Bedarf upgraden. Jederzeit kündigen.",
+    "free": "Kostenlos",
+    "pro": "Pro",
+    "business": "Business",
+    "month": "/Monat",
+    "popular": "Beliebt",
+    "getStarted": "Loslegen",
+    "upgradePro": "Auf Pro upgraden",
+    "upgradeBusiness": "Auf Business upgraden"
+  },
+  "gallery": {
+    "title": "Community-Galerie",
+    "subtitle": "Entdecken Sie KI-Prompts, die von unserer Creator-Community geteilt wurden."
+  },
+  "footer": {
+    "tagline": "Verwandeln Sie jedes Bild sofort in perfekte KI-Prompts.",
+    "product": "Produkt",
+    "company": "Unternehmen",
+    "legal": "Rechtliches",
+    "features": "Funktionen",
+    "pricing": "Preise",
+    "generate": "Generieren",
+    "about": "Über uns",
+    "blog": "Blog",
+    "careers": "Karriere",
+    "contact": "Kontakt",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen",
+    "cookies": "Cookie-Richtlinie",
+    "rights": "Alle Rechte vorbehalten.",
+    "builtWith": "Erstellt mit Next.js 14 · Powered by GPT-4o"
+  },
+  "auth": {
+    "signIn": "Bei PromptShot AI anmelden",
+    "subtitle": "Beginnen Sie, Bilder in KI-Prompts umzuwandeln",
+    "continueGoogle": "Mit Google fortfahren",
+    "continueGithub": "Mit GitHub fortfahren",
+    "terms": "Mit der Anmeldung stimmen Sie unseren",
+    "termsLink": "Nutzungsbedingungen",
+    "and": "und unserer",
+    "privacyLink": "Datenschutzrichtlinie zu"
+  },
+  "generate": {
+    "title": "Prompt generieren",
+    "upload": "Bild hochladen",
+    "dragDrop": "Ziehen & ablegen oder klicken zum Hochladen",
+    "outputType": "Ausgabetyp",
+    "generate": "Generieren",
+    "generating": "Wird generiert...",
+    "enhance": "Verbessern",
+    "copy": "Kopieren",
+    "copied": "Kopiert!"
+  },
+  "common": {
+    "loading": "Wird geladen...",
+    "error": "Etwas ist schiefgelaufen",
+    "retry": "Erneut versuchen",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "share": "Teilen",
+    "download": "Herunterladen"
+  }
+}

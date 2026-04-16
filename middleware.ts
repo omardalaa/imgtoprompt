@@ -1,9 +1,13 @@
 import { withAuth } from "next-auth/middleware";
-import { NextResponse } from "next/server";
+import createMiddleware from "next-intl/middleware";
+import { NextRequest, NextResponse } from "next/server";
+import { routing } from "./i18n/routing";
 
-export default withAuth(
-  function middleware(req) {
-    return NextResponse.next();
+const intlMiddleware = createMiddleware(routing);
+
+const authMiddleware = withAuth(
+  function onSuccess(req) {
+    return intlMiddleware(req);
   },
   {
     callbacks: {
@@ -12,6 +16,16 @@ export default withAuth(
   }
 );
 
+export default function middleware(req: NextRequest) {
+  const isDashboard = req.nextUrl.pathname.match(/^(\/[a-z]{2})?\/dashboard/);
+  if (isDashboard) {
+    return (authMiddleware as (req: NextRequest) => NextResponse)(req);
+  }
+  return intlMiddleware(req);
+}
+
 export const config = {
-  matcher: ["/dashboard/:path*"],
+  matcher: [
+    "/((?!api|_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp|ico|woff|woff2)).*)",
+  ],
 };

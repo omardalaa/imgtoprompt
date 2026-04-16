@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Zap, Menu, X, ChevronDown } from "lucide-react";
 import Image from "next/image";
+import { LanguageSwitcher } from "@/components/shared/language-switcher";
 
 interface NavbarProps {
   user?: {
@@ -46,6 +47,7 @@ export function Navbar({ user }: NavbarProps) {
         </nav>
 
         <div className="hidden md:flex items-center gap-3">
+          <LanguageSwitcher />
           {user ? (
             <div className="relative">
               <button

@@ -1,0 +1,85 @@
+{
+  "nav": {
+    "features": "功能",
+    "pricing": "价格",
+    "gallery": "画廊",
+    "signIn": "登录",
+    "dashboard": "控制台",
+    "generate": "生成"
+  },
+  "hero": {
+    "badge": "由 GPT-4o Vision 驱动",
+    "title": "将任意图片转换为",
+    "titleHighlight": "完美的 AI 提示词",
+    "description": "上传图片，立即获得适用于 Midjourney 的提示词、Stable Diffusion 标签、产品描述、广告文案和 SEO 内容。",
+    "cta": "免费开始",
+    "ctaSub": "无需信用卡",
+    "trustedBy": "超过 50,000 名创作者信赖我们"
+  },
+  "pricing": {
+    "title": "简单透明的价格",
+    "subtitle": "免费开始。需要时升级。随时取消。",
+    "free": "免费",
+    "pro": "专业版",
+    "business": "商业版",
+    "month": "/月",
+    "popular": "热门",
+    "getStarted": "立即开始",
+    "upgradePro": "升级到专业版",
+    "upgradeBusiness": "升级到商业版"
+  },
+  "gallery": {
+    "title": "社区画廊",
+    "subtitle": "浏览我们创作者社区分享的 AI 提示词。"
+  },
+  "footer": {
+    "tagline": "即时将任意图片转换为完美的 AI 提示词。",
+    "product": "产品",
+    "company": "公司",
+    "legal": "法律",
+    "features": "功能",
+    "pricing": "价格",
+    "generate": "生成",
+    "about": "关于我们",
+    "blog": "博客",
+    "careers": "招聘",
+    "contact": "联系我们",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "cookies": "Cookie 政策",
+    "rights": "版权所有。",
+    "builtWith": "基于 Next.js 14 构建 · 由 GPT-4o 驱动"
+  },
+  "auth": {
+    "signIn": "登录 PromptShot AI",
+    "subtitle": "开始将图片转换为 AI 提示词",
+    "continueGoogle": "使用 Google 继续",
+    "continueGithub": "使用 GitHub 继续",
+    "terms": "登录即表示您同意我们的",
+    "termsLink": "服务条款",
+    "and": "和",
+    "privacyLink": "隐私政策"
+  },
+  "generate": {
+    "title": "生成提示词",
+    "upload": "上传图片",
+    "dragDrop": "拖放或点击上传",
+    "outputType": "输出类型",
+    "generate": "生成",
+    "generating": "生成中...",
+    "enhance": "增强",
+    "copy": "复制",
+    "copied": "已复制！"
+  },
+  "common": {
+    "loading": "加载中...",
+    "error": "出了点问题",
+    "retry": "重试",
+    "save": "保存",
+    "cancel": "取消",
+    "delete": "删除",
+    "edit": "编辑",
+    "share": "分享",
+    "download": "下载"
+  }
+}

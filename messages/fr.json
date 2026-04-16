@@ -1,0 +1,85 @@
+{
+  "nav": {
+    "features": "Fonctionnalités",
+    "pricing": "Tarifs",
+    "gallery": "Galerie",
+    "signIn": "Se connecter",
+    "dashboard": "Tableau de bord",
+    "generate": "Générer"
+  },
+  "hero": {
+    "badge": "Propulsé par GPT-4o Vision",
+    "title": "Transformez n'importe quelle image en",
+    "titleHighlight": "prompts IA parfaits",
+    "description": "Téléchargez une image et obtenez des prompts Midjourney, des tags Stable Diffusion, des descriptions produits, des textes publicitaires et du contenu SEO en quelques secondes.",
+    "cta": "Commencer gratuitement",
+    "ctaSub": "Aucune carte bancaire requise",
+    "trustedBy": "Plus de 50 000 créateurs nous font confiance"
+  },
+  "pricing": {
+    "title": "Tarification simple et transparente",
+    "subtitle": "Commencez gratuitement. Passez au niveau supérieur si nécessaire. Annulez à tout moment.",
+    "free": "Gratuit",
+    "pro": "Pro",
+    "business": "Business",
+    "month": "/mois",
+    "popular": "Populaire",
+    "getStarted": "Commencer",
+    "upgradePro": "Passer à Pro",
+    "upgradeBusiness": "Passer à Business"
+  },
+  "gallery": {
+    "title": "Galerie communautaire",
+    "subtitle": "Parcourez les prompts IA partagés par notre communauté de créateurs."
+  },
+  "footer": {
+    "tagline": "Transformez n'importe quelle image en prompts IA parfaits instantanément.",
+    "product": "Produit",
+    "company": "Entreprise",
+    "legal": "Légal",
+    "features": "Fonctionnalités",
+    "pricing": "Tarifs",
+    "generate": "Générer",
+    "about": "À propos",
+    "blog": "Blog",
+    "careers": "Carrières",
+    "contact": "Contact",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "cookies": "Politique de cookies",
+    "rights": "Tous droits réservés.",
+    "builtWith": "Construit avec Next.js 14 · Propulsé par GPT-4o"
+  },
+  "auth": {
+    "signIn": "Connexion à PromptShot AI",
+    "subtitle": "Commencez à convertir des images en prompts IA",
+    "continueGoogle": "Continuer avec Google",
+    "continueGithub": "Continuer avec GitHub",
+    "terms": "En vous connectant, vous acceptez nos",
+    "termsLink": "Conditions d'utilisation",
+    "and": "et notre",
+    "privacyLink": "Politique de confidentialité"
+  },
+  "generate": {
+    "title": "Générer un Prompt",
+    "upload": "Télécharger une image",
+    "dragDrop": "Glissez-déposez ou cliquez pour télécharger",
+    "outputType": "Type de sortie",
+    "generate": "Générer",
+    "generating": "Génération en cours...",
+    "enhance": "Améliorer",
+    "copy": "Copier",
+    "copied": "Copié !"
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Une erreur s'est produite",
+    "retry": "Réessayer",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "share": "Partager",
+    "download": "Télécharger"
+  }
+}

@@ -1,3 +1,7 @@
+const createNextIntlPlugin = require("next-intl/plugin");
+
+const withNextIntl = createNextIntlPlugin("./i18n/request.ts");
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
@@ -34,16 +38,6 @@ const nextConfig = {
       },
     ];
   },
-  async redirects() {
-    return [
-      {
-        source: "/dashboard",
-        destination: "/dashboard/generate",
-        permanent: false,
-        missing: [{ type: "cookie", key: "next-auth.session-token" }],
-      },
-    ];
-  },
 };
 
-module.exports = nextConfig;
+module.exports = withNextIntl(nextConfig);

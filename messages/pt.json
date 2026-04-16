@@ -1,0 +1,85 @@
+{
+  "nav": {
+    "features": "Recursos",
+    "pricing": "Preços",
+    "gallery": "Galeria",
+    "signIn": "Entrar",
+    "dashboard": "Painel",
+    "generate": "Gerar"
+  },
+  "hero": {
+    "badge": "Desenvolvido por GPT-4o Vision",
+    "title": "Transforme qualquer imagem em",
+    "titleHighlight": "prompts de IA perfeitos",
+    "description": "Faça upload de uma imagem e obtenha prompts prontos para Midjourney, tags para Stable Diffusion, descrições de produtos, textos publicitários e conteúdo SEO em segundos.",
+    "cta": "Comece grátis",
+    "ctaSub": "Sem cartão de crédito",
+    "trustedBy": "Mais de 50.000 criadores confiam em nós"
+  },
+  "pricing": {
+    "title": "Preços simples e transparentes",
+    "subtitle": "Comece grátis. Faça upgrade quando precisar. Cancele a qualquer momento.",
+    "free": "Grátis",
+    "pro": "Pro",
+    "business": "Business",
+    "month": "/mês",
+    "popular": "Popular",
+    "getStarted": "Começar",
+    "upgradePro": "Upgrade para Pro",
+    "upgradeBusiness": "Upgrade para Business"
+  },
+  "gallery": {
+    "title": "Galeria da Comunidade",
+    "subtitle": "Explore prompts de IA compartilhados pela nossa comunidade de criadores."
+  },
+  "footer": {
+    "tagline": "Transforme qualquer imagem em prompts de IA perfeitos instantaneamente.",
+    "product": "Produto",
+    "company": "Empresa",
+    "legal": "Legal",
+    "features": "Recursos",
+    "pricing": "Preços",
+    "generate": "Gerar",
+    "about": "Sobre nós",
+    "blog": "Blog",
+    "careers": "Carreiras",
+    "contact": "Contato",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "cookies": "Política de Cookies",
+    "rights": "Todos os direitos reservados.",
+    "builtWith": "Construído com Next.js 14 · Desenvolvido por GPT-4o"
+  },
+  "auth": {
+    "signIn": "Entrar no PromptShot AI",
+    "subtitle": "Comece a converter imagens em prompts de IA",
+    "continueGoogle": "Continuar com Google",
+    "continueGithub": "Continuar com GitHub",
+    "terms": "Ao entrar, você concorda com nossos",
+    "termsLink": "Termos de Serviço",
+    "and": "e",
+    "privacyLink": "Política de Privacidade"
+  },
+  "generate": {
+    "title": "Gerar Prompt",
+    "upload": "Fazer upload de imagem",
+    "dragDrop": "Arraste e solte ou clique para fazer upload",
+    "outputType": "Tipo de saída",
+    "generate": "Gerar",
+    "generating": "Gerando...",
+    "enhance": "Melhorar",
+    "copy": "Copiar",
+    "copied": "Copiado!"
+  },
+  "common": {
+    "loading": "Carregando...",
+    "error": "Algo deu errado",
+    "retry": "Tentar novamente",
+    "save": "Salvar",
+    "cancel": "Cancelar",
+    "delete": "Excluir",
+    "edit": "Editar",
+    "share": "Compartilhar",
+    "download": "Baixar"
+  }
+}

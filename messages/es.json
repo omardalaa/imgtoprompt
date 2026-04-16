@@ -1,0 +1,85 @@
+{
+  "nav": {
+    "features": "Características",
+    "pricing": "Precios",
+    "gallery": "Galería",
+    "signIn": "Iniciar sesión",
+    "dashboard": "Panel",
+    "generate": "Generar"
+  },
+  "hero": {
+    "badge": "Impulsado por GPT-4o Vision",
+    "title": "Convierte cualquier imagen en",
+    "titleHighlight": "prompts de IA perfectos",
+    "description": "Sube una imagen y obtén prompts listos para Midjourney, etiquetas para Stable Diffusion, descripciones de productos, textos publicitarios y contenido SEO en segundos.",
+    "cta": "Empieza gratis",
+    "ctaSub": "Sin tarjeta de crédito",
+    "trustedBy": "Más de 50.000 creadores confían en nosotros"
+  },
+  "pricing": {
+    "title": "Precios simples y transparentes",
+    "subtitle": "Comienza gratis. Actualiza cuando necesites más. Cancela cuando quieras.",
+    "free": "Gratis",
+    "pro": "Pro",
+    "business": "Empresarial",
+    "month": "/mes",
+    "popular": "Popular",
+    "getStarted": "Comenzar",
+    "upgradePro": "Actualizar a Pro",
+    "upgradeBusiness": "Actualizar a Empresarial"
+  },
+  "gallery": {
+    "title": "Galería de la comunidad",
+    "subtitle": "Explora prompts de IA compartidos por nuestra comunidad de creadores."
+  },
+  "footer": {
+    "tagline": "Convierte cualquier imagen en prompts de IA al instante.",
+    "product": "Producto",
+    "company": "Empresa",
+    "legal": "Legal",
+    "features": "Características",
+    "pricing": "Precios",
+    "generate": "Generar",
+    "about": "Acerca de",
+    "blog": "Blog",
+    "careers": "Empleo",
+    "contact": "Contacto",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "cookies": "Política de cookies",
+    "rights": "Todos los derechos reservados.",
+    "builtWith": "Construido con Next.js 14 · Impulsado por GPT-4o"
+  },
+  "auth": {
+    "signIn": "Inicia sesión en PromptShot AI",
+    "subtitle": "Empieza a convertir imágenes en prompts de IA",
+    "continueGoogle": "Continuar con Google",
+    "continueGithub": "Continuar con GitHub",
+    "terms": "Al iniciar sesión, aceptas nuestros",
+    "termsLink": "Términos de servicio",
+    "and": "y",
+    "privacyLink": "Política de privacidad"
+  },
+  "generate": {
+    "title": "Generar Prompt",
+    "upload": "Subir imagen",
+    "dragDrop": "Arrastra y suelta o haz clic para subir",
+    "outputType": "Tipo de salida",
+    "generate": "Generar",
+    "generating": "Generando...",
+    "enhance": "Mejorar",
+    "copy": "Copiar",
+    "copied": "¡Copiado!"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Algo salió mal",
+    "retry": "Intentar de nuevo",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "share": "Compartir",
+    "download": "Descargar"
+  }
+}

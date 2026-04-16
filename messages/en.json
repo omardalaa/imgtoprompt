@@ -1,0 +1,85 @@
+{
+  "nav": {
+    "features": "Features",
+    "pricing": "Pricing",
+    "gallery": "Gallery",
+    "signIn": "Sign In",
+    "dashboard": "Dashboard",
+    "generate": "Generate"
+  },
+  "hero": {
+    "badge": "Powered by GPT-4o Vision",
+    "title": "Turn any image into",
+    "titleHighlight": "perfect AI prompts",
+    "description": "Upload an image and get production-ready Midjourney prompts, Stable Diffusion tags, product descriptions, ad copy, and SEO content in seconds.",
+    "cta": "Start for Free",
+    "ctaSub": "No credit card required",
+    "trustedBy": "Trusted by 50,000+ creators"
+  },
+  "pricing": {
+    "title": "Simple, transparent pricing",
+    "subtitle": "Start free. Upgrade when you need more. Cancel anytime.",
+    "free": "Free",
+    "pro": "Pro",
+    "business": "Business",
+    "month": "/mo",
+    "popular": "Popular",
+    "getStarted": "Get Started",
+    "upgradePro": "Upgrade to Pro",
+    "upgradeBusiness": "Upgrade to Business"
+  },
+  "gallery": {
+    "title": "Community Gallery",
+    "subtitle": "Browse AI prompts shared by our community of creators."
+  },
+  "footer": {
+    "tagline": "Turn any image into perfect AI prompts instantly.",
+    "product": "Product",
+    "company": "Company",
+    "legal": "Legal",
+    "features": "Features",
+    "pricing": "Pricing",
+    "generate": "Generate",
+    "about": "About",
+    "blog": "Blog",
+    "careers": "Careers",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Policy",
+    "rights": "All rights reserved.",
+    "builtWith": "Built with Next.js 14 · Powered by GPT-4o"
+  },
+  "auth": {
+    "signIn": "Sign in to PromptShot AI",
+    "subtitle": "Start converting images to AI prompts",
+    "continueGoogle": "Continue with Google",
+    "continueGithub": "Continue with GitHub",
+    "terms": "By signing in, you agree to our",
+    "termsLink": "Terms of Service",
+    "and": "and",
+    "privacyLink": "Privacy Policy"
+  },
+  "generate": {
+    "title": "Generate Prompt",
+    "upload": "Upload Image",
+    "dragDrop": "Drag & drop or click to upload",
+    "outputType": "Output Type",
+    "generate": "Generate",
+    "generating": "Generating...",
+    "enhance": "Enhance",
+    "copy": "Copy",
+    "copied": "Copied!"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Try again",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "share": "Share",
+    "download": "Download"
+  }
+}
