@@ -6,8 +6,8 @@ import { routing } from "./i18n/routing";
 const intlMiddleware = createMiddleware(routing);
 
 const authMiddleware = withAuth(
-  function onSuccess(req) {
-    return intlMiddleware(req);
+  function onSuccess(_req) {
+    return NextResponse.next();
   },
   {
     callbacks: {
@@ -16,11 +16,18 @@ const authMiddleware = withAuth(
   }
 );
 
+const locales = routing.locales.join("|");
+const localePrefixPattern = new RegExp(`^/(${locales})/dashboard`);
+
 export default function middleware(req: NextRequest) {
-  const isDashboard = req.nextUrl.pathname.match(/^(\/[a-z]{2})?\/dashboard/);
-  if (isDashboard) {
+  const { pathname } = req.nextUrl;
+
+  // Auth-protect only locale-prefixed dashboard routes
+  if (localePrefixPattern.test(pathname)) {
     return (authMiddleware as (req: NextRequest) => NextResponse)(req);
   }
+
+  // Everything else goes through i18n middleware (adds locale prefix)
   return intlMiddleware(req);
 }
 
