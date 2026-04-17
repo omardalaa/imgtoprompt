@@ -61,4 +61,10 @@ export const authOptions: NextAuthOptions = {
   secret: process.env.NEXTAUTH_SECRET,
 };
 
-export const getAuthSession = () => getServerSession(authOptions);
+export const getAuthSession = async () => {
+  try {
+    return await getServerSession(authOptions);
+  } catch {
+    return null;
+  }
+};

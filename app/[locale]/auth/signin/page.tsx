@@ -10,12 +10,18 @@ export const metadata: Metadata = {
 };
 
 export default async function SignInPage({
+  params,
   searchParams,
 }: {
+  params: { locale: string };
   searchParams: { callbackUrl?: string; error?: string };
 }) {
-  const session = await getAuthSession();
-  if (session) redirect(searchParams.callbackUrl ?? "/dashboard/generate");
+  try {
+    const session = await getAuthSession();
+    if (session) redirect(searchParams.callbackUrl ?? `/${params.locale}/dashboard/generate`);
+  } catch {
+    // DB not ready yet — show sign-in page anyway
+  }
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-violet-50 to-indigo-50 dark:from-background dark:to-background p-4">

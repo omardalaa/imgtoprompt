@@ -19,7 +19,7 @@ export function SignInCard({ callbackUrl, error }: SignInCardProps) {
   const handleSignIn = async (provider: "google" | "github") => {
     try {
       setLoading(provider);
-      await signIn(provider, { callbackUrl: callbackUrl ?? "/dashboard/generate" });
+      await signIn(provider, { callbackUrl: callbackUrl ?? "/en/dashboard/generate" });
     } catch {
       toast.error("Sign in failed. Please try again.");
       setLoading(null);
