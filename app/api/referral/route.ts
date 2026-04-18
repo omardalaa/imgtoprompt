@@ -20,7 +20,7 @@ export async function GET(_req: NextRequest) {
     take: 50,
   });
 
-  const baseUrl = process.env.NEXT_PUBLIC_APP_URL ?? "https://promptshotai.com";
+  const baseUrl = process.env.NEXT_PUBLIC_APP_URL ?? "https://insforge.dev";
 
   return NextResponse.json({
     code: user?.referralCode,

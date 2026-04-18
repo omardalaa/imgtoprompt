@@ -23,7 +23,7 @@ export default async function PrivacyPage() {
           <section>
             <h2 className="text-xl font-bold mb-3">1. Introduction</h2>
             <p className="text-muted-foreground leading-relaxed">
-              PromptShot AI ("we", "our", or "us") operates promptshotai.com. This Privacy Policy
+              PromptShot AI ("we", "our", or "us") operates insforge.dev. This Privacy Policy
               explains what information we collect, how we use it, and your rights regarding your
               personal data. By using our service, you agree to the collection and use of
               information in accordance with this policy.
@@ -85,8 +85,8 @@ export default async function PrivacyPage() {
               Free plan users: generation history is retained for 7 days. Pro and Business users
               have full history retained indefinitely. You can delete your account and all associated
               data at any time by contacting us at{" "}
-              <a href="mailto:privacy@promptshotai.com" className="text-violet-600 hover:underline">
-                privacy@promptshotai.com
+              <a href="mailto:privacy@insforge.dev" className="text-violet-600 hover:underline">
+                privacy@insforge.dev
               </a>.
             </p>
           </section>
@@ -105,8 +105,8 @@ export default async function PrivacyPage() {
             </ul>
             <p className="text-muted-foreground leading-relaxed mt-3">
               To exercise any of these rights, email us at{" "}
-              <a href="mailto:privacy@promptshotai.com" className="text-violet-600 hover:underline">
-                privacy@promptshotai.com
+              <a href="mailto:privacy@insforge.dev" className="text-violet-600 hover:underline">
+                privacy@insforge.dev
               </a>.
             </p>
           </section>
@@ -143,10 +143,10 @@ export default async function PrivacyPage() {
             <h2 className="text-xl font-bold mb-3">11. Contact</h2>
             <p className="text-muted-foreground leading-relaxed">
               For privacy-related questions, contact us at{" "}
-              <a href="mailto:privacy@promptshotai.com" className="text-violet-600 hover:underline">
-                privacy@promptshotai.com
+              <a href="mailto:privacy@insforge.dev" className="text-violet-600 hover:underline">
+                privacy@insforge.dev
               </a>{" "}
-              or write to: PromptShot AI, Privacy Team, promptshotai.com.
+              or write to: PromptShot AI, Privacy Team, insforge.dev.
             </p>
           </section>
         </div>

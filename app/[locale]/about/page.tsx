@@ -137,10 +137,10 @@ export default async function AboutPage() {
             Have feedback, ideas, or just want to say hi? We'd love to hear from
             you at{" "}
             <a
-              href="mailto:hello@promptshotai.com"
+              href="mailto:hello@insforge.dev"
               className="text-violet-600 hover:underline"
             >
-              hello@promptshotai.com
+              hello@insforge.dev
             </a>
           </p>
         </section>

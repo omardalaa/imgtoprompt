@@ -75,7 +75,7 @@ export function HeroSection({ isAuthenticated }: HeroSectionProps) {
               <div className="h-3 w-3 rounded-full bg-yellow-400" />
               <div className="h-3 w-3 rounded-full bg-green-400" />
             </div>
-            <span className="text-xs text-muted-foreground mx-auto">promptshotai.com/dashboard</span>
+            <span className="text-xs text-muted-foreground mx-auto">insforge.dev/dashboard</span>
           </div>
           <div className="p-8 grid md:grid-cols-2 gap-6">
             <div className="rounded-xl border-2 border-dashed border-border bg-muted/20 aspect-square flex items-center justify-center">

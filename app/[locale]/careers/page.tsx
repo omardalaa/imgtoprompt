@@ -138,7 +138,7 @@ export default async function CareersPage() {
                       </div>
                     </div>
                     <a
-                      href={`mailto:careers@promptshotai.com?subject=Application: ${role.title}`}
+                      href={`mailto:careers@insforge.dev?subject=Application: ${role.title}`}
                       className="inline-flex items-center gap-2 rounded-lg bg-violet-600 px-4 py-2 text-sm font-medium text-white hover:bg-violet-700 transition-colors"
                     >
                       Apply <ArrowRight className="h-4 w-4" />
@@ -168,7 +168,7 @@ export default async function CareersPage() {
             how you'd make PromptShot AI better.
           </p>
           <a
-            href="mailto:careers@promptshotai.com"
+            href="mailto:careers@insforge.dev"
             className="inline-flex items-center gap-2 rounded-lg bg-violet-600 px-6 py-3 font-medium text-white hover:bg-violet-700 transition-colors"
           >
             Get in touch <ArrowRight className="h-4 w-4" />

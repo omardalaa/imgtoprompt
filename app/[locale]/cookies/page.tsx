@@ -195,8 +195,8 @@ export default async function CookiesPage() {
             <h2 className="text-xl font-bold mb-3">7. Contact</h2>
             <p className="text-muted-foreground leading-relaxed">
               Questions about our use of cookies? Email us at{" "}
-              <a href="mailto:privacy@promptshotai.com" className="text-violet-600 hover:underline">
-                privacy@promptshotai.com
+              <a href="mailto:privacy@insforge.dev" className="text-violet-600 hover:underline">
+                privacy@insforge.dev
               </a>.
             </p>
           </section>

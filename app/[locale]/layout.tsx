@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     title: siteConfig.name,
     description: siteConfig.description,
     images: [`${siteConfig.url}/og.png`],
-    creator: "@promptshotai",
+    creator: "@insforgedev",
   },
   robots: { index: true, follow: true },
 };

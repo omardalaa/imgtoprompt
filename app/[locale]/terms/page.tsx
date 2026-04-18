@@ -23,7 +23,7 @@ export default async function TermsPage() {
           <section>
             <h2 className="text-xl font-bold mb-3">1. Acceptance of Terms</h2>
             <p className="text-muted-foreground leading-relaxed">
-              By accessing or using PromptShot AI ("the Service") at promptshotai.com, you agree
+              By accessing or using PromptShot AI ("the Service") at insforge.dev, you agree
               to be bound by these Terms of Service. If you do not agree to these terms, do not
               use the Service. These terms apply to all visitors, users, and others who access
               or use the Service.
@@ -147,8 +147,8 @@ export default async function TermsPage() {
             <h2 className="text-xl font-bold mb-3">12. Contact</h2>
             <p className="text-muted-foreground leading-relaxed">
               Questions about these Terms? Contact us at{" "}
-              <a href="mailto:legal@promptshotai.com" className="text-violet-600 hover:underline">
-                legal@promptshotai.com
+              <a href="mailto:legal@insforge.dev" className="text-violet-600 hover:underline">
+                legal@insforge.dev
               </a>.
             </p>
           </section>
